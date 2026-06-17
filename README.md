@@ -39,3 +39,7 @@ py app.py
 Change `blue` to `green`, `red`, or any valid CSS color name.
 
 If APP_COLOR is not set, the application uses a default color.
+
+ ## AUTHORS
+ 
+ Nasrin and Samikshaa
