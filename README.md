@@ -40,6 +40,22 @@ Change `blue` to `green`, `red`, or any valid CSS color name.
 
 If APP_COLOR is not set, the application uses a default color.
 
- ## Authors
- 
- Nasrin and Samikshaa
+## Docker
+
+### Build the image
+
+```bash
+docker build -t flask-color-app .
+```
+
+### Run the container
+
+```bash
+docker run -p 5000:5000 -e APP_COLOR=green flask-color-app
+```
+
+### Access the application
+
+Open:
+
+http://localhost:5000
