@@ -12,13 +12,14 @@ def home():
     <body style="
         background-color:{color};
         display:flex;
+        flex-direction: column;
         justify-content:center;
         align-items:center;
         height:100vh;
         margin:0;
         font-family:Arial;">
         <h1>Flask Color Application</h1>
-        <p>Current Color: {color}</p>
+        <h2>Current Color: {color}</h2>
     </body>
     </html>
     """
