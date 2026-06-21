@@ -17,7 +17,8 @@ def home():
         height:100vh;
         margin:0;
         font-family:Arial;">
-        <h1>APP_COLOR = {color} - CI/CD Working!</h1>
+        <h1>Flask Color Application</h1>
+        <p>Current Color: {color}</p>
     </body>
     </html>
     """
