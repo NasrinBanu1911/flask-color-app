@@ -17,7 +17,7 @@ def home():
         height:100vh;
         margin:0;
         font-family:Arial;">
-        <h1>APP_COLOR = {color}</h1>
+        <h1>APP_COLOR = {color} - CI/CD Working!</h1>
     </body>
     </html>
     """
