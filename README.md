@@ -134,3 +134,28 @@ A test change was made to the Flask application:
 APP_COLOR = green - CI/CD Working!
 
 After pushing the code, GitHub Actions successfully rebuilt and redeployed the application without manual intervention.
+
+
+## Architecture Diagram
+
+```text
+Developer (VS Code)
+        |
+        v
+     GitHub
+        |
+        v
+ GitHub Actions
+        |
+        v
+   Amazon ECR
+        |
+        v
+   Amazon EC2
+        |
+        v
+ Docker Container
+        |
+        v
+ Flask Application
+```
