@@ -93,3 +93,44 @@ Stored in Amazon ECR:
 ### Result
 
 The Flask Color App is successfully deployed on AWS EC2 and accessible through a public IP address.
+
+
+## CI/CD Automation with GitHub Actions
+
+### Objective
+
+Automate the build and deployment process whenever code is pushed to the main branch.
+
+### Tools Used
+
+* GitHub Actions
+* Docker
+* Amazon ECR
+* Amazon EC2
+* AWS IAM
+
+### Workflow
+
+1. Developer pushes code to the GitHub repository.
+2. GitHub Actions automatically starts the workflow.
+3. Docker image is built.
+4. Docker image is pushed to Amazon ECR.
+5. EC2 server pulls the latest image from ECR.
+6. Existing container is stopped and removed.
+7. A new container is started automatically.
+
+### Pipeline Architecture
+
+VS Code → GitHub → GitHub Actions → Amazon ECR → Amazon EC2 → Live Application
+
+### Result
+
+The application is automatically redeployed whenever changes are pushed to the main branch.
+
+### Verification
+
+A test change was made to the Flask application:
+
+APP_COLOR = green - CI/CD Working!
+
+After pushing the code, GitHub Actions successfully rebuilt and redeployed the application without manual intervention.
