@@ -171,3 +171,12 @@ The next challenge was deploying the application on AWS. I worked with Amazon EC
 The most valuable learning experience was implementing a CI/CD pipeline using GitHub Actions. I configured GitHub Secrets to securely manage credentials and automated the process of building Docker images, pushing them to ECR, and deploying updates to EC2. I verified the pipeline by making code changes and observing automatic deployment without manual intervention.
 
 Through this project, I gained practical experience with Git, GitHub, Docker, Linux, AWS, and CI/CD practices. I also learned the importance of automation, security, documentation, and troubleshooting in modern DevOps workflows.
+
+
+## Author
+
+**Nasrin Banu M A**
+
+DevOps Internship Project
+
+GitHub: https://github.com/NasrinBanu1911
