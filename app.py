@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    color = os.environ.get("APP_COLOR", "blue")
+    color = os.environ.get("APP_COLOR", "red")
 
     return f"""
     <html>
