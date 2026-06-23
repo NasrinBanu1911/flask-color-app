@@ -53,4 +53,4 @@ jobs:
             sudo docker pull 728393074808.dkr.ecr.eu-north-1.amazonaws.com/flask-color-app:latest
             sudo docker stop flask-app || true
             sudo docker rm flask-app || true
-            sudo docker run -d -p 80:5000 -e APP_COLOR=green --name flask-app 728393074808.dkr.ecr.eu-north-1.amazonaws.com/flask-color-app:latest
+            sudo docker run -d -p 80:5000 -e APP_COLOR=pink --name flask-app 728393074808.dkr.ecr.eu-north-1.amazonaws.com/flask-color-app:latest
